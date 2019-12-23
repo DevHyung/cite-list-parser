@@ -29,7 +29,7 @@ def save_excel(_FILENAME, _DATA, _HEADER):
 
 if __name__ == "__main__":
     # CONFIG AREA START ...
-    FILENAME = "./logicrule_cite.xlsx" # save file name     
+    FILENAME = "./logicrule_cite.xlsx" # save file name
     headerList = ['title', 'author & conference', 'link']
     startUrl = 'https://scholar.google.com/scholar?cites=18126586568111983196&as_sdt=2005&sciodt=0,5&hl=ko' # input the google Cite 1 page url
     dataList = []
